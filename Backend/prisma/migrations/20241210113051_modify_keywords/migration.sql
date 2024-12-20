@@ -1,0 +1,3 @@
+-- AlterTable
+ALTER TABLE "Jobs" ALTER COLUMN "keywords" DROP NOT NULL,
+ALTER COLUMN "keywords" SET DATA TYPE TEXT;
